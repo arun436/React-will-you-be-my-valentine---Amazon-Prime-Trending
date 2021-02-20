@@ -21,3 +21,47 @@
 button {
   min-width: 80px;
 }
+
+#main-container-text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 200px;
+}
+#main-container-text > h1 {
+  color: blue;
+  font-size: 4rem;
+}
+#main-container-text > p{
+  margin-top: 10px;
+  color: black;
+  font-size: 2rem;
+}
+
+#main-container-buttons{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  justify-content: center;
+}
+#main-container-buttons > button{
+  margin: 10px 10px 10px 10px;
+  height: 40px;
+  width: 100px;
+  font-size: 1rem;
+  align-content: center;
+}
+#main-container-buttons > #button-next{
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+#main-container-buttons > #button-prev{
+  background-color: lightsalmon;
+  cursor: pointer;
+}
+
+#main-container-buttons > #button-restart{
+  background-color: sandybrown;
+  cursor: pointer;
+}
